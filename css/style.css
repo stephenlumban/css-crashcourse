@@ -126,20 +126,51 @@ input[type="submit"]:hover, button:hover {
 }
 
 .p-box {
-    width: 800px;
-    height: 500px;
+    width: 960px;
+    height: 540px;
     border: 1px solid #333;
     position: relative;
+    background-image: url(../images/battle.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px 0px 10px;
+    background-size: 960px 540px;
 }
 
 .p-box h1{
     position: absolute;
     top: 200px;
     left: 80px;
+    color: white;
 }
 
 .p-box h2{
     position: absolute;
     bottom: 120px;
     right: 200px;
+    color: orange;
+}
+
+.fixed {
+    width: 100px;
+    position: fixed;
+    left: 0px;
+    top: 500px;
+}
+
+.my-list li:first-child {
+    background: red;
+}
+
+.my-list li:last-child {
+    background: blue;
+}
+
+.my-list li:nth-child(2) {
+    background: orange;
+}
+.my-list li:nth-child(5), :nth-child(11) {
+    background: orange;
+}
+.my-list li:nth-child(8) {
+    background: orange;
 }
